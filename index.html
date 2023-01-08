@@ -21,6 +21,10 @@
             color: chocolate;
             font-size: 18;
         }
+        .formStyle{
+            align-items: center;
+            border: 2px solid red;
+        }
     </style>
 </head>
 
@@ -28,6 +32,17 @@
     <div class="container">
         <h1 class="headingTitle">Welcome to potionfy</h1>
         <p class="purpose">Learning git to contribute in a team</h3>
+    </div>
+
+    <div>
+        <form action="mailto:hermione@potionfy.com" method="post" enctype="text/plain" class="formStyle">
+            Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
     </div>
 </body>
 
